@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DDDDDD">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_marginTop="35dp" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/auth_login"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:id="@+id/textView3"
+        android:layout_marginTop="34dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/auth_name"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Password"
+        android:id="@+id/textView2"
+        android:layout_marginTop="34dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/auth_password"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Auth"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickAuth"
+        android:id="@+id/button"
+        android:layout_marginTop="34dp"/>
+
+</LinearLayout>

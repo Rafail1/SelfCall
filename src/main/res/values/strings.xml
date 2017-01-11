@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SelfCall</string>
+    <string name="admin_receiver_status" id="s">1</string>
+</resources>
